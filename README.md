@@ -2,7 +2,7 @@
 
 ![_Axolotl_](https://user-images.githubusercontent.com/6409227/217604228-17b830df-1069-4e4e-b8fc-8b164de32233.png)
 
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/ArcadiaPower/axolotl?style=for-the-badge)![GitHub release (latest by date)](https://img.shields.io/github/v/release/ArcadiaPower/axolotl?style=for-the-badge)![GitHub](https://img.shields.io/github/license/ArcadiaPower/axolotl?style=for-the-badge)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/SunwolfEngineering/axolotl?style=for-the-badge)![GitHub release (latest by date)](https://img.shields.io/github/v/release/SunwolfEngineering/axolotl?style=for-the-badge)![GitHub](https://img.shields.io/github/license/SunwolfEngineering/axolotl?style=for-the-badge)
 
 axolotl (`ax`) is an opinionated CLI that minimally emulates the behavior of the `aws-vault exec` command to run ad-hoc commands or switch to a subshell of a specific AWS profiles on the fly.
 
@@ -18,15 +18,15 @@ This is a Go CLI and as such can be installed the standard Go way if you have a 
 
 Install with `go install`
 ```bash
-go install github.com/ArcadiaPower/axolotl@latest
+go install github.com/SunwolfEngineering/axolotl@latest
 ```
 
 __OR__
 
 Install with homebrew
 ```bash
-brew tap ArcadiaPower/tap
-brew install ArcadiaPower/tap/axolotl
+brew tap SunwolfEngineering/tap
+brew install SunwolfEngineering/tap/axolotl
 ```
 
 Note: Installing with homebrew has the added benefit of automatically installing `gimme-aws-creds` as a dependency if it wasn't already installed.
@@ -80,7 +80,7 @@ I wanted the simplicity of the `aws-vault exec` command with the requirement for
 
 ## License
 
-ax is released under the [MIT License](https://opensource.org/licenses/MIT)
+ax is released under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
 
 [aws-vault]: https://github.com/99designs/aws-vault
 [saml2aws]: https://github.com/Versent/saml2aws

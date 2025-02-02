@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ArcadiaPower/axolotl/cli"
+	"github.com/SunwolfEngineering/axolotl/cli"
 	"github.com/spf13/viper"
 
 	"github.com/alecthomas/kingpin"

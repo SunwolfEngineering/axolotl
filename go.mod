@@ -1,4 +1,4 @@
-module github.com/ArcadiaPower/axolotl
+module github.com/SunwolfEngineering/axolotl
 
 go 1.23
 

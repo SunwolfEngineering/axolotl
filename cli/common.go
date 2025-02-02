@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ArcadiaPower/axolotl/sdk/vault"
+	"github.com/SunwolfEngineering/axolotl/sdk/vault"
 	"github.com/alecthomas/kingpin"
 	"github.com/c-bata/go-prompt"
 	"github.com/spf13/viper"

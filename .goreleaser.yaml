@@ -59,17 +59,17 @@ brews:
   - name: axolotl
 
     repository:
-      owner: ArcadiaPower
+      owner: SunwolfEngineering
       name: homebrew-tap
 
     commit_msg_template: "Brew formula update for {{ .ProjectName }} version {{ .Tag }}"
 
-    homepage: "https://github.com/ArcadiaPower/axolotl/"
+    homepage: "https://github.com/SunwolfEngineering/axolotl/"
 
     description: "A helper utility for switching AWS profiles in subshells."
 
     # SPDX identifier of the license.
-    license: "MIT"
+    license: "GPL-3.0-or-later"
 
     dependencies:
       - name: gimme-aws-creds
