@@ -3,7 +3,7 @@ package cli_test
 import (
 	"testing"
 
-	"github.com/ArcadiaPower/axolotl/cli"
+	"github.com/SunwolfEngineering/axolotl/cli"
 	"github.com/alecthomas/kingpin"
 	"github.com/stretchr/testify/assert"
 )
